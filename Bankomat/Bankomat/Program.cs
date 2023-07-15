@@ -251,10 +251,11 @@
                 else
                 {
                     Console.WriteLine($"Siz kiritgan parol hato,sizda qolgan urunishlar soni {attempts} ta, qayta urunib ko`ring! ");
-
+                    goto metka;
+                    Console.Write("Just a test");
                 }
             }
-
+            
         }
     }
 }
